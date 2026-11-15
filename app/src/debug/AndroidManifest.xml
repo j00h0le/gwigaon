@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug builds only: lets adb and scripts/demo scripts drive a trip before the setup screen exists. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name=".ui.debug.DebugTripActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".ui.debug.ComponentGalleryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.debug.ScreenGalleryActivity"
+            android:exported="true" />
+    </application>
+</manifest>

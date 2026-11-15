@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">귀가온</string>
+    <string name="trip_channel_name">운행 모니터링</string>
+    <string name="trip_channel_description">안심 귀가 운행 중 상태를 표시합니다</string>
+</resources>

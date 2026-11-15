@@ -1,0 +1,13 @@
+.DS_Store
+build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+keystore.properties
+*.jks
+*.keystore
+.env
+.env.*
+!.env.example
