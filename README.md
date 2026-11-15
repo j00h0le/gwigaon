@@ -168,12 +168,15 @@
 <table>
   <tr>
     <td width="72%" align="center">
-      <a href="docs/showcase/arrival-voice.mp4"><img src="docs/showcase/arrival-notes.gif" width="600" alt="목적지 근처에서 승객이 남긴 도착 안내 카드가 뜨는 모습. 누르면 소리가 있는 영상이 열립니다"></a><br>
-      <sub><a href="docs/showcase/arrival-voice.mp4">소리와 함께 보기 (mp4, 14초)</a></sub>
+      <img src="docs/showcase/arrival-notes.gif" width="600" alt="목적지 근처에서 승객이 남긴 도착 안내 카드가 뜨는 모습">
     </td>
     <td width="28%"><img src="docs/showcase/phone-05-near.jpg" width="210" alt="목적지 근처 비상 연락처 페이지"></td>
   </tr>
 </table>
+
+<sub>소리와 함께 보기 (14초): 차가 도착 안내를 읽어 주는 장면입니다. 재생되지 않으면 <a href="docs/showcase/arrival-voice.mp4">mp4 파일</a>을 여세요.</sub>
+
+https://github.com/user-attachments/assets/1e08d989-4c7f-42ea-b294-a34f14190312
 
 **목적지 근처.** 500 m 안에 들어오면 승객이 남긴 도착 안내가 카드로 뜨고, 차가 소리 내어 읽어 줍니다. 읽는 문장은 승객의 메모(정문, 지하 2층, 경비실에 맡기기)를 Claude가 자연스러운 한 문장으로 다듬은 것입니다. 기사는 잠든 승객을 깨워 묻지 않아도 됩니다.<br>
 <sub>차량 신호: GPS와 목적지 거리, Pleos TTS(차량 스피커).</sub>
