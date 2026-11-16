@@ -103,31 +103,43 @@
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="docs/showcase/setup-01-address.png" width="280" alt="설정: 목적지 입력"></td>
-    <td align="center" width="33%"><img src="docs/showcase/setup-02-qr.png" width="280" alt="설정: 비상 연락처 QR"></td>
-    <td align="center" width="33%"><img src="docs/showcase/setup-03-notes.png" width="280" alt="설정: 도착 안내 메모"></td>
+    <td align="center" width="33%"><img src="docs/showcase/setup-01-address.png" width="280" alt="설정 1/5: 목적지 입력"></td>
+    <td align="center" width="33%"><img src="docs/showcase/setup-02-qr.png" width="280" alt="설정 2/5: 비상 연락처 QR"></td>
+    <td align="center" width="33%"><img src="docs/showcase/setup-03-notes.png" width="280" alt="설정 3/5: 도착 안내 메모"></td>
   </tr>
   <tr>
-    <td align="center"><sub>목적지</sub></td>
-    <td align="center"><sub>비상 연락처 QR</sub></td>
-    <td align="center"><sub>도착 안내 메모</sub></td>
+    <td align="center"><sub>1/5 목적지</sub></td>
+    <td align="center"><sub>2/5 비상 연락처 QR</sub></td>
+    <td align="center"><sub>3/5 도착 안내 메모</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/showcase/setup-04-cues.png" width="280" alt="설정 4/5: 대화 감지 켜기"></td>
+    <td align="center"><img src="docs/showcase/setup-05-pin.png" width="280" alt="설정 5/5: PIN으로 운행 종료 안내"></td>
+    <td align="center"><img src="docs/showcase/setup-06-pin-set.png" width="280" alt="설정 5/5: PIN 4자리를 두 번 입력해 정한 화면"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>4/5 대화 감지</sub></td>
+    <td align="center"><sub>5/5 PIN으로 운행 종료</sub></td>
+    <td align="center"><sub>5/5 PIN 정하기</sub></td>
   </tr>
 </table>
 
-승객이 출발 전에 목적지, 비상 연락처, 도착 안내를 저장합니다. 비상 연락처는 QR을 한 번만 스캔하면 되고, 이후 운행마다 다시 공유할 필요가 없습니다.<br>
-<sub>차량 신호: 기어 P(정차). 주행 중에는 설정을 열 수 없습니다.</sub>
+승객이 출발 전에 목적지, 비상 연락처, 도착 안내를 저장하고, 대화 감지를 켤지 정합니다. 비상 연락처는 QR을 한 번만 스캔하면 되고, 이후 운행마다 다시 공유할 필요가 없습니다.
+
+**PIN으로 운행 종료.** 승객이 원하면 자기만 아는 PIN 4자리를 정해 둘 수 있습니다. PIN을 켜 두면 기사님이 운행 종료를 눌러 운행을 끝낼 수 없습니다. 도착하면 기사 화면이 "승객에게 PIN을 물어보세요"로 바뀌고, 운행은 승객이 PIN을 입력하거나 승객석이 비어야 끝납니다. 기사님이 잠든 승객을 깨워 PIN을 받게 되므로, 승객을 차에 남겨 둔 채 운행만 끝나는 일을 막습니다. PIN이 켜져 있으면 설정을 열 때도 PIN이 필요합니다.<br>
+<sub>차량 신호: 기어 P(정차). 주행 중에는 설정을 열 수 없습니다. PIN은 차 안에 해시로만 저장되고, 5번 틀리면 30초 동안 잠깁니다.</sub>
 
 ### ② 운행 시작
 
 <table>
   <tr>
-    <td width="72%"><img src="docs/showcase/car-01-driving.png" width="600" alt="운행 중 차량 화면"></td>
+    <td width="72%" align="center"><img src="docs/showcase/start-trip.gif" width="600" alt="귀가온 홈 화면에서 운행 시작을 누르자 내비게이션에 양재역이 자동으로 입력되고, 카운트다운 뒤 경로 안내가 시작되며, 기어를 D로 바꾸자 귀가온이 운행 중 화면으로 바뀌는 모습"></td>
     <td width="28%"><img src="docs/showcase/phone-01-driving.jpg" width="210" alt="운행 중 비상 연락처 페이지"></td>
   </tr>
 </table>
 
-기어를 D로 바꾸자 운행이 시작되고, 기사 화면에는 도착 예정 시각과 SOS만 크게 남습니다. 비상 연락처 페이지에는 "정상 운행 중"이 뜹니다.<br>
-<sub>차량 신호: 기어 P → D, GPS, 내비게이션 목적지. 대화 감지가 켜져 있으면 "AI 모니터링 중"이 표시됩니다.</sub>
+기사님이 귀가온 홈 화면에서 운행 시작을 누르면 이번 운행의 안내(목적지, 대화 감지, PIN, SOS)가 뜹니다. 한 번 더 누르면 승객이 설정한 목적지가 내비게이션에 자동으로 입력되고, 기사님은 주소를 따로 묻거나 입력하지 않아도 됩니다. 내비게이션이 카운트다운 뒤 경로 안내를 시작하고, 기어를 D로 바꾸면 기사 화면에는 도착 예정 시각과 SOS만 크게 남습니다. 비상 연락처 페이지에는 "정상 운행 중"이 뜹니다.<br>
+<sub>차량 신호: 운행 시작 버튼 또는 기어 P → D, NaviHelper 목적지 입력, GPS. 대화 감지가 켜져 있으면 "AI 모니터링 중"이 표시됩니다.</sub>
 
 ### ③ 주행 중 이벤트
 
